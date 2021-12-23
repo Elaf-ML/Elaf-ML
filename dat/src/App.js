@@ -5,7 +5,7 @@ import Header_content from './components/header_content';
 import {BrowserRouter , Route , Routes , useNavigate , Link} from 'react-router-dom'
 import NavPage from '../src/components/navigation/nav';
 
-
+/* Omar */
 function App() {
   return (
 <>
