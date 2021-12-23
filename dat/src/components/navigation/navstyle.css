@@ -1,0 +1,29 @@
+body {
+  background-color: #073c4e;
+}
+
+.Header_Navigation {
+  display: inline;
+}
+
+.Header_Navigation .Exit {
+  position: fixed;
+  width: 37px;
+  height: 37px;
+  top: 3%;
+  left: 45px;
+  cursor: pointer;
+}
+
+.Header_Navigation .Text_logo {
+  position: fixed;
+  color: white;
+  font-size: 45px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: 10px;
+  font-style: italic;
+  font-weight: bold;
+  left: 44%;
+  top: 34px;
+}
+/*# sourceMappingURL=navstyle.css.map */

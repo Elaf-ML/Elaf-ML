@@ -1,0 +1,28 @@
+body {
+  background-color: rgb(7, 60, 78);
+}
+
+.Header_Navigation {
+  display: inline;
+  .Exit {
+    position: fixed;
+    width: 37px;
+    height: 37px;
+    top: 3%;
+    left:45px;
+  cursor: pointer;
+
+  }
+
+  .Text_logo {
+    position: fixed;
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 10px;
+    font-style: italic;
+    font-weight: bold;
+    left: 44%;
+    top: 34px;
+  }
+}

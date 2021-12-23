@@ -1,0 +1,111 @@
+.MAIN {
+  position: fixed;
+  display: inline-block;
+  background-color: #073c4e;
+  height: 8em;
+  width: 100%;
+  margin-top: -23px;
+}
+
+.MAIN .header_banner {
+  text-align: center;
+}
+
+.MAIN .header_banner .menuIcon {
+  position: fixed;
+  top: 30px;
+  left: 20px;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.MAIN .header_banner .Text_logo {
+  position: fixed;
+  color: white;
+  font-size: 45px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: 7px;
+  font-style: italic;
+  font-weight: bold;
+  left: 41%;
+  top: 24px;
+}
+
+.MAIN .header_banner .Join {
+  position: relative;
+  color: white;
+  font-size: 1.7rem;
+  font-weight: bold;
+  float: right;
+  right: 36px;
+  top: 54px;
+  cursor: pointer;
+}
+
+.MAIN .header_banner .Join:hover {
+  color: rgba(204, 203, 203, 0.479);
+}
+
+.Header_content h1 {
+  position: fixed;
+  color: white;
+  top: 14rem;
+  padding: 10px;
+  text-align: center;
+  z-index: 1;
+}
+
+.Header_content .SearchIcon {
+  position: fixed;
+  top: 26rem;
+  left: 5%;
+  width: 30px;
+  height: 30px;
+  z-index: 3;
+  cursor: pointer;
+}
+
+.Header_content .Header_content_image {
+  position: relative;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  top: 100px;
+}
+
+.Header_content .SearchInput {
+  position: fixed;
+  background-color: white;
+  top: 25rem;
+  left: 3%;
+  right: 3%;
+  padding-left: 4rem;
+  width: 94%;
+  height: 4rem;
+  font-weight: bold;
+  font-size: 25px;
+  color: #6e7575;
+  border: none;
+  border-radius: 5px;
+  z-index: 3;
+  outline: none;
+}
+
+.Header_content .SearchInputBTN {
+  position: fixed;
+  background-color: #073c4e;
+  top: 30rem;
+  left: 3%;
+  right: 3%;
+  width: 94%;
+  height: 4rem;
+  font-weight: bold;
+  font-size: 25px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  z-index: 3;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
